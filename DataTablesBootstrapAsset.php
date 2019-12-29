@@ -28,7 +28,6 @@ class DataTablesBootstrapAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'paskuale75\datatables\DataTablesAsset',
-        'paskuale75\datatables\DataTablesPdfMakerAsset'
+        'paskuale75\datatables\DataTablesAsset'
     ];
 }

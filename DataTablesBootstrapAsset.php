@@ -28,6 +28,6 @@ class DataTablesBootstrapAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'sdelfi\datatables\DataTablesAsset',
+        'paskuale75\datatables\DataTablesAsset',
     ];
 }

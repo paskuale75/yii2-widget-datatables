@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 /**
  * Asset for the DataTables Buttons Bs4 plugin
  */
-class PdfMakerAsset extends AssetBundle
+class DataTablesPdfMakerAsset extends AssetBundle
 {
     public $sourcePath = '@bower/pdfmake';
 

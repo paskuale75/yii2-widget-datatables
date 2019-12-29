@@ -13,6 +13,7 @@ class DataTablesPdfMakerAsset extends AssetBundle
 
     public $js = [
         "build/pdfmake.min.js",
+        "build/vfs_fonts.js",
     ];
 
 

@@ -2,7 +2,7 @@ DataTables widget for Yii2
 ===========================
 This extension provides the [DataTables](https://github.com/DataTables/DataTables) integration for the Yii2 framework.
 
-[![Latest Stable Version](https://poser.pugx.org/sdelfi/yii2-widget-datatables/v/stable)](https://packagist.org/packages/sdelfi/yii2-widget-datatables) [![Total Downloads](https://poser.pugx.org/sdelfi/yii2-widget-datatables/downloads)](https://packagist.org/packages/sdelfi/yii2-widget-datatables) [![Latest Unstable Version](https://poser.pugx.org/sdelfi/yii2-widget-datatables/v/unstable)](https://packagist.org/packages/sdelfi/yii2-widget-datatables) [![License](https://poser.pugx.org/sdelfi/yii2-widget-datatables/license)](https://packagist.org/packages/sdelfi/yii2-widget-datatables)
+[![Latest Stable Version](https://poser.pugx.org/paskuale75/yii2-widget-datatables/v/stable)](https://packagist.org/packages/paskuale75/yii2-widget-datatables) [![Total Downloads](https://poser.pugx.org/paskuale75/yii2-widget-datatables/downloads)](https://packagist.org/packages/paskuale75/yii2-widget-datatables) [![Latest Unstable Version](https://poser.pugx.org/paskuale75/yii2-widget-datatables/v/unstable)](https://packagist.org/packages/paskuale75/yii2-widget-datatables) [![License](https://poser.pugx.org/paskuale75/yii2-widget-datatables/license)](https://packagist.org/packages/paskuale75/yii2-widget-datatables)
 
 Installation
 ------------
@@ -11,14 +11,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 With Composer installed, you can then install the extension using the following commands:
 
-    composer require --prefer-dist sdelfi/yii2-widget-datatables "*"
+    composer require --prefer-dist paskuale75/yii2-widget-datatables "*"
 
 Command installs the datatables widget.
 
 You can also add (instead of the second command):
 
 ```
-"sdelfi/yii2-widget-datatables": "*"
+"paskuale75/yii2-widget-datatables": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,7 +28,7 @@ Usage
 Use DataTables as any other other Yii2 widget.
 
 ```php
-use sdelfi\datatables\DataTables;
+use paskuale75\datatables\DataTables;
 ```
 
 ```php
@@ -88,7 +88,7 @@ You can also use DataTables in the JavaScript layer of your application. To achi
 ```php
 public $depends = [
 ...
-'sdelfi\datatables\DataTablesAsset',
+'paskuale75\datatables\DataTablesAsset',
 ...
 ];
 ```

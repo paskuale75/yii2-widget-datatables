@@ -1,5 +1,5 @@
 {
-  "name": "sdelfi/yii2-widget-datatables",
+  "name": "paskuale75/yii2-widget-datatables",
   "description": "DataTables widget for Yii2 with Bootstrap 4",
   "type": "yii2-extension",
   "minimum-stability": "stable",
@@ -26,6 +26,10 @@
     {
       "name": "Stanislav",
       "email": "delfi89@gmail.com"
+    },
+    {
+      "name": "Pasquale Pellicani",
+      "email": "pellicanipasquale@gmail.com"
     }
   ],
   "repositories": [
@@ -46,7 +50,7 @@
   },
   "autoload": {
     "psr-4": {
-      "sdelfi\\datatables\\": ""
+      "paskuale75\\datatables\\": ""
     }
   },
   "config": {

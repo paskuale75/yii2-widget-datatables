@@ -45,7 +45,7 @@
     "bower-asset/datatables.net-bs4": "*",
     "bower-asset/datatables.net-select-bs4": "*",
     "bower-asset/datatables.net-buttons-bs4": "*",
-    "bower-asset/Stuk/jszip": "*",
+    "bower-asset/jszip": "*",
     "bower-asset/pdfmake": "*"
   },
   "autoload": {

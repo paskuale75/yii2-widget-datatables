@@ -60,25 +60,9 @@ The TableTools plugin is also available. Specify the DOM and the tableTools sett
     "responsive"=>true, 
     "dom"=> 'lfTrtip',
     "tableTools"=>[
-        "aButtons"=> [  
-            [
-            "sExtends"=> "copy",
-            "sButtonText"=> Yii::t('app',"Copy to clipboard")
-            ],[
-            "sExtends"=> "csv",
-            "sButtonText"=> Yii::t('app',"Save to CSV")
-            ],[
-            "sExtends"=> "xls",
-            "oSelectorOpts"=> ["page"=> 'current']
-            ],[
-            "sExtends"=> "pdf",
-            "sButtonText"=> Yii::t('app',"Save to PDF")
-            ],[
-            "sExtends"=> "print",
-            "sButtonText"=> Yii::t('app',"Print")
-            ],
-        ]
-    ]
+        //empty for load button assets
+    ],
+    'buttons'   => ['copy', 'excel', 'pdf'],
 ],
 ...
 ```

@@ -51,6 +51,10 @@ class DataTables extends \yii\grid\GridView
         //Bootstrap4 Asset by default
         DataTablesBootstrapAsset::register($view);
 
+        //Language
+        $language = DataTablesLanguage::run();
+        $clientOptions["language"] = $language;
+        
         //TableTools Asset if needed
         if (isset($clientOptions["tableTools"])) {
             DataTablesButtonsBs4Asset::register($view);

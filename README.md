@@ -76,3 +76,27 @@ public $depends = [
 ...
 ];
 ```
+## Internationalization or i18n Plugin##
+
+All of **dataTable**'s utterances are translatable. Select your prefer translation from (https://datatables.net/plug-ins/i18n/)
+ 
+You can override **datatables**'s translations by setting the application's 
+ [message source](https://www.yiiframework.com/doc/guide/2.0/en/tutorial-i18n#2-configure-one-or-multiple-message-sources "Yii2")
+ in the main configuration, like so: 
+
+    <?php
+    // ...
+    'components' => [
+        // ... other components ...     
+        'i18n' => [
+             'translations' => [
+                  // ... other translations ...
+                 'dtable' => [    // override pluto's standard messages
+                     'class' => 'yii\i18n\PhpMessageSource',
+                     'basePath' => '@app/messages',  // this is a default
+                     'sourceLanguage' => 'it', // this as well
+                 ],
+             ],
+        ],
+        // ... still more components ...
+    ]

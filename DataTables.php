@@ -61,7 +61,7 @@ class DataTables extends \yii\grid\GridView
             DataTablesSelectBs4Asset::register($view);
         }
         $options = Json::encode($clientOptions);
-        $view->registerJs("jQuery('#$id').DataTable($options);");
+        $view->registerJs("jQuery('#$id').DataTable($options).columns.adjust().responsive.recalc();");
 
         //base list view run
         if ($this->showOnEmpty || $this->dataProvider->getCount() > 0) {

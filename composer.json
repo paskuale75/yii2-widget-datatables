@@ -43,6 +43,7 @@
     "bower-asset/jquery": ">= 1.7.0",
     "bower-asset/datatables.net": "*",
     "bower-asset/datatables.net-bs4": "dev-master",
+    "bower-asset/datatables.net-responsive-bs4": "dev-master",
     "bower-asset/datatables.net-select-bs4": "*",
     "bower-asset/datatables.net-buttons-bs4": "*",
     "bower-asset/jszip": "*",
